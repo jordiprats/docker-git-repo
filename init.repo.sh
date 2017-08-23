@@ -11,4 +11,11 @@ mkdir -p /repo
 echo "# $1" > /repo/README.md
 echo "user: $2"
 
+mkdir -p /repo/config-catalog
+mkdir -p /repo/common
+mkdir -p /repo/environment
+mkdir -p /repo/type
+mkdir -p /repo/type_env
+mkdir -p /repo/sg
+mkdir -p /repo/sg_type_env
 mkdir -p /repo/node
