@@ -9,7 +9,7 @@ fi
 mkdir -p /repo
 
 echo "# $1" > /repo/README.md
-echo "user: $2"
+echo "user: $2" >> /repo/README.md
 
 mkdir -p /repo/config-catalog
 mkdir -p /repo/common
